@@ -1,0 +1,21 @@
+Révision de citations - version PWA
+====================================
+
+Contenu : index.html, xlsx.full.min.js, manifest.webmanifest, sw.js, icons/
+
+Mettre en ligne (gratuit) avec GitHub Pages :
+1. Crée un dépôt public sur github.com (ex. "citations").
+2. Envoie TOUS ces fichiers à la racine du dépôt (en gardant le dossier icons/).
+3. Settings > Pages > Source : "Deploy from a branch", branche main, dossier / (root).
+4. Après une minute, l'appli est sur https://TON-PSEUDO.github.io/citations/
+
+Installer sur iPhone :
+1. Ouvre le lien dans Safari (obligatoire, pas Chrome).
+2. Bouton Partager > "Sur l'écran d'accueil" > Ajouter.
+3. Ouvre l'appli une première fois avec du réseau (pour charger les polices), puis elle marche hors ligne.
+
+Mettre à jour : modifie les fichiers, change VERSION dans sw.js (ex. 'v2'), renvoie sur GitHub.
+
+Attention : les données sont stockées dans l'appli installée. Si tu la supprimes de
+l'écran d'accueil, ou si iOS vide les données d'un site peu utilisé, les citations
+et la progression sont perdues. Garde ton fichier Excel d'origine.
